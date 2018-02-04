@@ -1,12 +1,19 @@
 import PyPDF2
 
-pdf = PyPDF2.PdfFileReader(open("C:\\Users\\ahmed\\Desktop\\test\\encryptcombinedminutes.pdf", "rb"))
+pdf = PyPDF2.PdfFileReader(open(input("Please enter the full path of the file:\n"), "rb"))
 
-passDic = open("C:\\Users\\ahmed\\Desktop\\test\\dictionary.txt")
+passDic = open(input("Please enter full path of dictionary:\n"))
+
 temp = passDic.read().splitlines()
 
+dec = False
+
 for word in temp:
-    print("Checking..." + word)
+    print("Checking.. " + word)
     if pdf.decrypt(word) == 1:
-        print("Password is...\n" + word)
+        print("Password is..\n" + word)
+        dec = True
         break
+
+if dec == False:
+    print("Sorry, couldn't find the password in dictionary..\n")
