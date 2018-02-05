@@ -2,6 +2,7 @@
 Created on Jul 20, 2017
 
 @author: ahmed
+simple impossible math problem
 '''
 def collatz(x):
     if x % 2 == 0 and x != 1:

@@ -2,6 +2,7 @@
 Created on Jul 20, 2017
 
 @author: ahmed
+prints a list of strings in table format
 '''
 from builtins import len
 

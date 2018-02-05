@@ -2,6 +2,7 @@
 Created on Jul 20, 2017
 
 @author: ahmed
+automatically adds commas and final 'and' to list of words
 '''
 
 def addWord():

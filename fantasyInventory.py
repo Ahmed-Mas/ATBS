@@ -2,6 +2,7 @@
 Created on Jul 20, 2017
 
 @author: ahmed
+simple game inventory display and add
 '''
 
 stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}

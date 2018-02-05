@@ -2,6 +2,7 @@
 Created on Jul 20, 2017
 
 @author: ahmed
+test for using loop within loops
 '''
 
 grid = [['.', '.', '.', '.', '.', '.'],

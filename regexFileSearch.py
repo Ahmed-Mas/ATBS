@@ -1,6 +1,12 @@
+'''
+Created on Jul 20, 2017
+
+@author: ahmed
+runs through all .txt files in directory to look for word
+'''
 import re, os
 
-path = "C:\\Users\\ahmed\\Desktop\\test"
+path = input("Please input full location..\n")
 
 os.chdir(path)
 

@@ -1,3 +1,9 @@
+'''
+Created on Jul 20, 2017
+
+@author: ahmed
+simple brute force for pdfs using dictionary
+'''
 import PyPDF2
 
 pdf = PyPDF2.PdfFileReader(open(input("Please enter the full path of the file:\n"), "rb"))

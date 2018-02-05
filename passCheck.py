@@ -2,6 +2,8 @@
 Created on Jul 20, 2017
 
 @author: ahmed
+
+simple password strength checker
 '''
 import re
 
